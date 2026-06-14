@@ -1,11 +1,10 @@
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class PlayerInput : MonoBehaviour
 {
     private PlayerInputs inputs;
-    PlayerMovement playerMovement;
+    [SerializeField] Player player;
 
     [SerializeField] private FloatingJoystick joystick;
 
@@ -17,18 +16,19 @@ public class PlayerInput : MonoBehaviour
     private void OnEnable()
     {
         inputs.Enable();
+
+        inputs.PlayerActionMap.TouchPress.performed += ctx => player.PlayRun();
+
+        inputs.PlayerActionMap.TouchPress.canceled += ctx => player.StopRun();
     }
 
     private void Start()
     {
-        playerMovement = GetComponent<PlayerMovement>();
+        player = GetComponent<Player>();
     }
 
     private void Update()
     {
-        playerMovement.MovePlayer(new Vector3(
-            joystick.Horizontal,
-            0f,
-            joystick.Vertical));
+        player.MovePlayer(new Vector3(joystick.Horizontal, 0f, joystick.Vertical));
     }
 }
