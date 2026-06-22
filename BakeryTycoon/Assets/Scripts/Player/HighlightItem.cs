@@ -15,4 +15,9 @@ public class HighlightItem : MonoBehaviour
             holdReferance.transform.position.z),
             new Quaternion(), holdReferance.transform);
     }
+
+    public void Hide()
+    {
+        Destroy(holdingObject);
+    }
 }

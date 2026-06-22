@@ -1,16 +1,24 @@
 using UnityEngine;
 
-public abstract class ItemBase : MonoBehaviour, IHoldable
+public abstract class ItemBase : InteractbleBase, IHoldable
 {
     public ItemData data;
+
+    public override void Interact()
+    {
+        Hold();
+    }
 
     public void Hold()
     {
         PlayerInventory inv = FindFirstObjectByType<PlayerInventory>();
 
-        inv.AddItem(data);
+        if (inv != null)
+            inv.AddItem(data);
+        else
+            Debug.LogWarning("Data alinamadi");
 
-        Debug.Log("Data alindi");
+        Destroy(gameObject);
     }
 
     public void Drop()

@@ -9,4 +9,9 @@ public class HiglightItemText : MonoBehaviour
     {
         itemCounterText.text = _count.ToString() + "X";
     }
+
+    public void HideText()
+    {
+        itemCounterText.text = "";
+    }
 }

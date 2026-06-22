@@ -36,4 +36,13 @@ public class PlayerInventory : MonoBehaviour
 
         holdingObject = itemData.itemObject;
     }
+
+    public void ClearInventory()
+    {
+        itemData = null;
+        itemStack = 0;
+
+        highlightItem.Hide();
+        itemText.HideText();
+    }
 }
