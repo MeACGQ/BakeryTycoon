@@ -1,19 +1,20 @@
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.InputSystem.Interactions;
 
 public class HighlightItem : MonoBehaviour
 {
-    public GameObject holdReferance;
+    public Transform holdReferance;
 
     [SerializeField] GameObject holdingObject;
 
-    public void Highlight(GameObject item)
+    public void Highlight(GameObject _item)
     {
-        holdingObject = Instantiate(item, new Vector3(holdReferance.transform.position.x,
+        holdingObject = Instantiate(_item, new Vector3(holdReferance.transform.position.x,
             holdReferance.transform.position.y,
             holdReferance.transform.position.z),
             new Quaternion(), holdReferance.transform);
+
+        holdingObject.GetComponent<Collider>().isTrigger = false;
     }
 
     public void Hide()

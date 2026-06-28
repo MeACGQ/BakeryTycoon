@@ -49,19 +49,22 @@
     <Analyzer Include="D:\Unity\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Player\Player\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\Player\HighlightItem.cs" />
+    <Compile Include="Assets\Scripts\Player\Player\Player.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerInputs.cs" />
+    <Compile Include="Assets\Scripts\Objects\Farm\Farm.cs" />
+    <Compile Include="Assets\Scripts\Objects\Machines\ProductOutPut.cs" />
     <Compile Include="Assets\Scripts\Bases\InteractbleBase.cs" />
-    <Compile Include="Assets\Scripts\Bases\Recipe.cs" />
+    <Compile Include="Assets\Scripts\Objects\Foods\Bread.cs" />
+    <Compile Include="Assets\Scripts\Objects\Machines\Produce.cs" />
     <Compile Include="Assets\Scripts\ScriptibleObjects\ItemData.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IHoldable.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
+    <Compile Include="Assets\Scripts\Objects\Machines\Recipe.cs" />
     <Compile Include="Assets\Scripts\Objects\Box.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\ProductEnter.cs" />
+    <Compile Include="Assets\Scripts\Player\GetOutPut.cs" />
     <Compile Include="Assets\Scripts\Player\HiglightItemText.cs" />
     <Compile Include="Assets\Scripts\Player\Interaction\Interaction.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
@@ -71,12 +74,14 @@
     <Compile Include="Assets\Scripts\Objects\TestMachine.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\Objects\GreenBox.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\Player\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\Bases\ItemBase.cs" />
-    <Compile Include="Assets\Scripts\Bases\Produce.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerAnimator.cs" />
+    <Compile Include="Assets\Scripts\Player\Player\PlayerInputs.cs" />
+    <Compile Include="Assets\Scripts\Bases\FarmBase.cs" />
     <Compile Include="Assets\Scripts\Bases\MachineBase.cs" />
+    <Compile Include="Assets\Scripts\Player\Player\PlayerInventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

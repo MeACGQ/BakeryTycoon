@@ -17,22 +17,23 @@ public class PlayerInventory : MonoBehaviour
         itemText = GetComponent<HiglightItemText>();
     }
 
-    public void AddItem(ItemData _data)
+    public void AddItem(ItemData _data, int _count)
     {
         if (itemData == _data)
         {
-            itemStack++;
+            itemStack += _count;
 
-            itemText.HiglightText(itemStack);
         }
         else
         {
             itemData = _data;
 
-            itemStack++;
-     
+            itemStack += _count;
+
             highlightItem.Highlight(_data.itemObject);
         }
+
+        itemText.HiglightText(itemStack);
 
         holdingObject = itemData.itemObject;
     }

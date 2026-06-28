@@ -3,6 +3,6 @@ using UnityEngine;
 [System.Serializable]
 public class Recipe
 {
-    public string input;
-    public GameObject output;
+    public ItemData input;
+    public ItemData output;
 }

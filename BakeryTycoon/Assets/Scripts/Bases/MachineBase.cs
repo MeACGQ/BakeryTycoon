@@ -4,22 +4,39 @@ using UnityEngine;
 
 public class MachineBase : InteractbleBase
 {
-    public ItemData[] acceptleProducts;
+    [Header("References")]
+    [SerializeField] private Transform outputPoint;
+    private HighlightItem highlightItem;
+    GetOutPut Getoutput;
 
-    [SerializeField] GameObject inputProduct;
-    [SerializeField] Transform outputPoint;
-    [SerializeField] List<Recipe> recipes;
-    [SerializeField] float productTime = 3f;
+    [Header("Products")]
+    [SerializeField] public ItemData[] acceptableProducts;
+    [SerializeField] public ItemData inputProduct;
+    [SerializeField] public ItemData outputProduct;
 
-    [SerializeField] int productStack = 0;
+    [Header("Recipes")]
+    [SerializeField] private List<Recipe> recipes;
+
+    [Header("Production Settings")]
+    [SerializeField] private float productTime = 3f;
+
+    [Header("Stacks")]
+    [SerializeField] private int productStack = 0;
+    public int outputStack = 0;
 
     private bool isWorking = false;
+
+    private void Start()
+    {
+        Getoutput = GetComponent<GetOutPut>();
+        highlightItem = GetComponent<HighlightItem>();
+    }
 
     public void AddProduct(ItemData item, int currentStack)
     {
         if (inputProduct == null)
         {
-            inputProduct = item.itemObject;
+            inputProduct = item;
 
             productStack += currentStack;
         }
@@ -46,14 +63,16 @@ public class MachineBase : InteractbleBase
         {
             yield return new WaitForSeconds(productTime);
 
-            GameObject result = GetOutput(inputProduct.name);
+            outputProduct = GetOutput(inputProduct);
 
-            if (result != null)
+            if (outputProduct != null)
             {
-                Instantiate(result, outputPoint.position, Quaternion.identity);
+                highlightItem.Highlight(outputProduct.itemObject);
             }
 
             productStack--;
+
+            outputStack++;
         }
 
         inputProduct = null;
@@ -61,13 +80,16 @@ public class MachineBase : InteractbleBase
         isWorking = false;
     }
 
-    GameObject GetOutput(string inputName)
+    ItemData GetOutput(ItemData _inputName)
     {
-        Recipe recipe = recipes.Find(r => r.input == inputName);
+        return Getoutput.FindOutPut(_inputName, recipes);
+    }
 
-        if (recipe == null)
-            return null;
+    public void ClearMachine()
+    {
+        outputProduct = null;
+        outputStack = 0;
 
-        return recipe.output;
+        highlightItem.Hide();
     }
 }
