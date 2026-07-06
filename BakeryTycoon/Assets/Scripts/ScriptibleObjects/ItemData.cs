@@ -6,4 +6,10 @@ public class ItemData : ScriptableObject
 {
     public string itemName;
     public GameObject itemObject;
+
+    [Header("Plant Settings")]
+
+    public float growTime;
+
+    public GameObject seedObject;
 }

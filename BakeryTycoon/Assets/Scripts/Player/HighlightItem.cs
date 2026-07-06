@@ -9,10 +9,9 @@ public class HighlightItem : MonoBehaviour
 
     public void Highlight(GameObject _item)
     {
-        holdingObject = Instantiate(_item, new Vector3(holdReferance.transform.position.x,
-            holdReferance.transform.position.y,
-            holdReferance.transform.position.z),
-            new Quaternion(), holdReferance.transform);
+        holdingObject = Instantiate(_item);
+
+        holdingObject.transform.SetParent(holdReferance, false);
 
         holdingObject.GetComponent<Collider>().isTrigger = false;
     }

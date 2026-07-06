@@ -5,8 +5,8 @@ using UnityEngine;
 public class MachineBase : InteractbleBase
 {
     [Header("References")]
-    [SerializeField] private Transform outputPoint;
-    private HighlightItem highlightItem;
+    [SerializeField] HighlightItem highlightInput;
+    [SerializeField] HighlightItem highlightOutput;
     GetOutPut Getoutput;
 
     [Header("Products")]
@@ -25,11 +25,11 @@ public class MachineBase : InteractbleBase
     public int outputStack = 0;
 
     private bool isWorking = false;
+    private bool outputCreated = false;
 
     private void Start()
     {
         Getoutput = GetComponent<GetOutPut>();
-        highlightItem = GetComponent<HighlightItem>();
     }
 
     public void AddProduct(ItemData item, int currentStack)
@@ -39,6 +39,8 @@ public class MachineBase : InteractbleBase
             inputProduct = item;
 
             productStack += currentStack;
+
+            highlightInput.Highlight(inputProduct.itemObject);
         }
         else
             productStack += currentStack;
@@ -65,15 +67,19 @@ public class MachineBase : InteractbleBase
 
             outputProduct = GetOutput(inputProduct);
 
-            if (outputProduct != null)
+            if (outputProduct != null && !outputCreated)
             {
-                highlightItem.Highlight(outputProduct.itemObject);
+                highlightOutput.Highlight(outputProduct.itemObject);
+
+                outputCreated = true;
             }
 
             productStack--;
 
             outputStack++;
         }
+
+        highlightInput.Hide();
 
         inputProduct = null;
 
@@ -89,7 +95,8 @@ public class MachineBase : InteractbleBase
     {
         outputProduct = null;
         outputStack = 0;
+        outputCreated = false;
 
-        highlightItem.Hide();
+        highlightOutput.Hide();
     }
 }

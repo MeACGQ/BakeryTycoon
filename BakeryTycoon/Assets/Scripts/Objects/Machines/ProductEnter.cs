@@ -13,9 +13,6 @@ public class ProductEnter : InteractbleBase
 
     public override void Interact()
     {
-        Debug.Log("interact Added");
-
-
         PlayerInventory inv = FindFirstObjectByType<PlayerInventory>();
 
         if (inv.itemData != null && machine.acceptableProducts.Contains(inv.itemData))
@@ -23,8 +20,6 @@ public class ProductEnter : InteractbleBase
             machine.AddProduct(inv.itemData, inv.itemStack);
 
             inv.ClearInventory();
-
-            Debug.Log("Product Added");
         }
     }
 }

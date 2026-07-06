@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5861250313680419595}
-  - component: {fileID: 6183892241129165691}
+  - component: {fileID: 235178042216121091}
   m_Layer: 0
   m_Name: farm8
   m_TagString: Untagged
@@ -26,13 +26,13 @@ Transform:
   m_GameObject: {fileID: 332955993795756330}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.2, z: 1.423}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 1.423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6183892241129165691
+--- !u!114 &235178042216121091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,13 +41,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 332955993795756330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 5861250313680419595}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &605803639553096901
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,7 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6008159217595781620}
-  - component: {fileID: 509257198485680074}
+  - component: {fileID: 6638599071772025068}
   m_Layer: 0
   m_Name: farm3
   m_TagString: Untagged
@@ -74,13 +71,13 @@ Transform:
   m_GameObject: {fileID: 605803639553096901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.2, z: 0.367}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0.367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &509257198485680074
+--- !u!114 &6638599071772025068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,13 +86,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 605803639553096901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 6008159217595781620}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &1590734246804429273
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2177940724411074430}
-  - component: {fileID: 4151751715492509579}
+  - component: {fileID: 1789483508163050506}
   m_Layer: 0
   m_Name: farm4
   m_TagString: Untagged
@@ -122,13 +116,13 @@ Transform:
   m_GameObject: {fileID: 1590734246804429273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.2, z: 1.423}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 1.423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4151751715492509579
+--- !u!114 &1789483508163050506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,13 +131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1590734246804429273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 2177940724411074430}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &2659868853842863685
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479451695937850041}
-  - component: {fileID: 2149255213371175435}
+  - component: {fileID: 29810917550102171}
   m_Layer: 0
   m_Name: farm2
   m_TagString: Untagged
@@ -170,13 +161,13 @@ Transform:
   m_GameObject: {fileID: 2659868853842863685}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.2, z: -0.671}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -0.671}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2149255213371175435
+--- !u!114 &29810917550102171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,13 +176,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2659868853842863685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 479451695937850041}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &3568120986770828002
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1751313737031067297}
-  - component: {fileID: 3816699754410186802}
+  - component: {fileID: 5574401737191858751}
   m_Layer: 0
   m_Name: farm7
   m_TagString: Untagged
@@ -218,13 +206,13 @@ Transform:
   m_GameObject: {fileID: 3568120986770828002}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.2, z: 0.367}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 0.367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3816699754410186802
+--- !u!114 &5574401737191858751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,13 +221,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3568120986770828002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 1751313737031067297}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &6992119902956158167
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 245957460254306770}
-  - component: {fileID: 7057327335433348220}
+  - component: {fileID: 1827856426485644465}
   m_Layer: 0
   m_Name: farm6
   m_TagString: Untagged
@@ -266,13 +251,13 @@ Transform:
   m_GameObject: {fileID: 6992119902956158167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.2, z: -0.671}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: -0.671}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7057327335433348220
+--- !u!114 &1827856426485644465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,13 +266,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6992119902956158167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 245957460254306770}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &7434243760592854051
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 965748437725731294}
-  - component: {fileID: 7493100227061346860}
+  - component: {fileID: 6294469534494657142}
   m_Layer: 0
   m_Name: farm5
   m_TagString: Untagged
@@ -314,13 +296,13 @@ Transform:
   m_GameObject: {fileID: 7434243760592854051}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.2, z: -2}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7493100227061346860
+--- !u!114 &6294469534494657142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -329,13 +311,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7434243760592854051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 965748437725731294}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1 &8116701540516352454
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8037598685955304637}
-  - component: {fileID: 3025643727618835432}
+  - component: {fileID: 2201060825826393848}
   m_Layer: 0
   m_Name: farm1
   m_TagString: Untagged
@@ -362,13 +341,13 @@ Transform:
   m_GameObject: {fileID: 8116701540516352454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.2, z: -2}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2718736720000009308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3025643727618835432
+--- !u!114 &2201060825826393848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -377,13 +356,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8116701540516352454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ead316572eefc842a74a55aedeb8a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 52b52b8b78d1f194a850aba8ed6dd188, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Farm
-  growTime: 4
-  referance: {fileID: 8037598685955304637}
-  seed: {fileID: 1000529673233303552, guid: 83fe8217f166dd44cb5297189f97fefa, type: 3}
-  growedItem: {fileID: 919132149155446097, guid: fe2056911f2700f46a022b65ef9cf485, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::Plot
+  currentItem: {fileID: 0}
 --- !u!1001 &2463572183026508727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,15 +370,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.23
+      value: 1.3189731
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000005441485
+      value: -0.00000009102382
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.97
+      value: 4.2026114
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -434,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       propertyPath: m_Name
-      value: farm4 2
+      value: Farm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -463,10 +439,32 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5861250313680419595}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2042948576949047505}
   m_SourcePrefab: {fileID: 100100000, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
 --- !u!4 &2718736720000009308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
   m_PrefabInstance: {fileID: 2463572183026508727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3382542008053210854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1815982b7ace60344bf985490f6a9c23, type: 3}
+  m_PrefabInstance: {fileID: 2463572183026508727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2042948576949047505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3382542008053210854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4184a5e39ed9d4e9c6da89461d596e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FarmBase
+  plots: []
+  cropData: {fileID: 11400000, guid: c13fe8407a5c607408a083d528deb64e, type: 2}

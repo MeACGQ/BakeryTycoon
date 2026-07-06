@@ -17,8 +17,10 @@ public class PlayerInventory : MonoBehaviour
         itemText = GetComponent<HiglightItemText>();
     }
 
-    public void AddItem(ItemData _data, int _count)
+    public bool AddItem(ItemData _data, int _count)
     {
+        if (itemData != null && itemData != _data) return false;
+
         if (itemData == _data)
         {
             itemStack += _count;
@@ -36,6 +38,8 @@ public class PlayerInventory : MonoBehaviour
         itemText.HiglightText(itemStack);
 
         holdingObject = itemData.itemObject;
+
+        return true;
     }
 
     public void ClearInventory()

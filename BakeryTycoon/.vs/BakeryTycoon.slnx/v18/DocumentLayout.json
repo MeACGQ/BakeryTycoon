@@ -3,55 +3,36 @@
   "WorkspaceRootPath": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\genca\\Desktop\\PersonLogApp\\PersonLogApp\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\Farm\\Plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\objects\\farm\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\farm\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\player\\highlightitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\highlightitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\player\\higlightitemtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\higlightitemtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\player\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\bases\\farmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bases\\farmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\objects\\machines\\productenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\machines\\productenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\scriptibleobjects\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptibleobjects\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\scriptibleobjects\\plantdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptibleobjects\\plantdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\objects\\farm\\farmslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\farm\\farmslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\bases\\machinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bases\\machinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\objects\\machines\\productoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\machines\\productoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\scriptibleobjects\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptibleobjects\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\bases\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bases\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\Recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Bases\\Recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Bases\\MachineBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\portprojects\\bakerytycoon\\bakerytycoon\\assets\\scripts\\objects\\farm\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\farm\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,170 +42,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\genca\\Desktop\\PersonLogApp\\PersonLogApp\\Person.cs",
-              "ToolTip": "C:\\Users\\genca\\Desktop\\PersonLogApp\\PersonLogApp\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T21:30:13.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Farm.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Farm.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Farm\\Farm.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Farm.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objects\\Farm\\Farm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCgAAAAMAAAAAAAAAA==",
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\Player\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player\\PlayerInventory.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\Player\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player\\PlayerInventory.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T11:19:18.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FarmBase.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\FarmBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\FarmBase.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\FarmBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bases\\FarmBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T11:17:16.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ItemBase.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\ItemBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\ItemBase.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\ItemBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bases\\ItemBase.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T19:53:15.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HiglightItemText.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\HiglightItemText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\HiglightItemText.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\HiglightItemText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\HiglightItemText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T19:43:01.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T19:36:41.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\Recipe.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\Recipe.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\Recipe.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bases\\Recipe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T18:21:28.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductEnter.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Machines\\ProductEnter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Machines\\ProductEnter.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Machines\\ProductEnter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objects\\Machines\\ProductEnter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:23:38.768Z",
+              "WhenOpened": "2026-07-06T04:36:54.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerInventory.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\PlayerInventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInventory.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\PlayerInventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptibleObjects\\ItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T14:37:54.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T22:21:48.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductOutPut.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Machines\\ProductOutPut.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Machines\\ProductOutPut.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Machines\\ProductOutPut.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objects\\Machines\\ProductOutPut.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PlantData.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\PlantData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptibleObjects\\PlantData.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\ScriptibleObjects\\PlantData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptibleObjects\\PlantData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:41:51.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T22:20:40.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MachineBase.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\MachineBase.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bases\\MachineBase.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:56:50.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FarmSlot.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\FarmSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Farm\\FarmSlot.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\FarmSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Farm\\FarmSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:48:46.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HighlightItem.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\HighlightItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\HighlightItem.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Player\\HighlightItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\HighlightItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
+              "Title": "FarmBase.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\FarmBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\FarmBase.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\FarmBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bases\\FarmBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T13:59:54.593Z",
+              "WhenOpened": "2026-07-04T20:43:59.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MachineBase.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\MachineBase.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bases\\MachineBase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
+              "Title": "Farm.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Farm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Farm\\Farm.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Farm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Farm\\Farm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T10:34:33.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T21:26:41.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MachineBase.cs",
-              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bases\\MachineBase.cs",
-              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Bases\\MachineBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bases\\MachineBase.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowD8AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Plot.cs",
+              "DocumentMoniker": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Plot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Farm\\Plot.cs",
+              "ToolTip": "D:\\PortProjects\\BakeryTycoon\\BakeryTycoon\\Assets\\Scripts\\Objects\\Farm\\Plot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Farm\\Plot.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T17:27:54.105Z"
+              "WhenOpened": "2026-07-06T04:00:12.944Z",
+              "EditorCaption": ""
             }
           ]
         }
