@@ -9,6 +9,13 @@ public class Plot : InteractbleBase
 
     [SerializeField] private GameObject currentItem;
 
+    FarmBase F_base;
+
+    private void Awake()
+    {
+        F_base = GetComponentInParent<FarmBase>();
+    }
+
     public void StartPlant(ItemData _plantData)
     {
         if (currentState != FarmStates.Empty) return;
@@ -42,16 +49,14 @@ public class Plot : InteractbleBase
     {
         if (currentState == FarmStates.Ready)
         {
+            if (PlayerInventory.Instance.AddItem(F_base.cropData, 1) == false)
+                return;
+
             currentState = FarmStates.Empty;
-
-            PlayerInventory inv = FindFirstObjectByType<PlayerInventory>();
-            FarmBase F_base = GetComponentInParent<FarmBase>();
-
-            if (inv.AddItem(F_base.cropData, 1) == false) return;
 
             Destroy(currentItem);
 
-            F_base.StartPlanting();
+            StartPlant(F_base.cropData);
         }
     }
 }

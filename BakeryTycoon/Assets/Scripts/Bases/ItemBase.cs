@@ -16,19 +16,12 @@ public abstract class ItemBase : InteractbleBase, IHoldable
 
     public void Hold()
     {
-        PlayerInventory inv = FindFirstObjectByType<PlayerInventory>();
 
-
-
-        if (inv != null)
+        if (PlayerInventory.Instance.holdingObject == null || PlayerInventory.Instance.holdingObject.name == gameObject.name)
         {
-            if (inv.holdingObject == null || inv.holdingObject.name == gameObject.name)
-            {
-                inv.AddItem(data, 1);
+            PlayerInventory.Instance.AddItem(data, 1);
 
-                Destroy(gameObject);
-            }
-
+            Destroy(gameObject);
         }
         else
             Debug.LogWarning("Data alinamadi");

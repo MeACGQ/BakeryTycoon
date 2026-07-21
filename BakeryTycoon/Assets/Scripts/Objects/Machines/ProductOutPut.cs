@@ -11,13 +11,11 @@ public class ProductOutPut : InteractbleBase
 
     public override void Interact()
     {
-        PlayerInventory inv = FindFirstObjectByType<PlayerInventory>();
-
         if (machine.outputStack <= 0) return;
 
-        if (inv.itemData == null || inv.itemData == machine.outputProduct)
+        if (PlayerInventory.Instance.itemData == null || PlayerInventory.Instance.itemData == machine.outputProduct)
         {
-            inv.AddItem(machine.outputProduct, machine.outputStack);
+            PlayerInventory.Instance.AddItem(machine.outputProduct, machine.outputStack);
 
             machine.ClearMachine();
         }

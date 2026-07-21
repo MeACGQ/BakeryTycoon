@@ -40,7 +40,7 @@ public class MachineBase : InteractbleBase
 
             productStack += currentStack;
 
-            highlightInput.Highlight(inputProduct.itemObject);
+            highlightInput.Highlight(inputProduct);
         }
         else
             productStack += currentStack;
@@ -69,7 +69,7 @@ public class MachineBase : InteractbleBase
 
             if (outputProduct != null && !outputCreated)
             {
-                highlightOutput.Highlight(outputProduct.itemObject);
+                highlightOutput.Highlight(outputProduct);
 
                 outputCreated = true;
             }

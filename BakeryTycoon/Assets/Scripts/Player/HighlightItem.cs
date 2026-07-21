@@ -1,15 +1,13 @@
-using Unity.Mathematics;
 using UnityEngine;
 
 public class HighlightItem : MonoBehaviour
 {
     public Transform holdReferance;
-
     [SerializeField] GameObject holdingObject;
 
-    public void Highlight(GameObject _item)
+    public void Highlight(ItemData _item)
     {
-        holdingObject = Instantiate(_item);
+        holdingObject = Instantiate(_item.itemObject);
 
         holdingObject.transform.SetParent(holdReferance, false);
 
@@ -18,6 +16,9 @@ public class HighlightItem : MonoBehaviour
 
     public void Hide()
     {
-        Destroy(holdingObject);
+        if (holdingObject != null)
+        {
+            Destroy(holdingObject);
+        }
     }
 }

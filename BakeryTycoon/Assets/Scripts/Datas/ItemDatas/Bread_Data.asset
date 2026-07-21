@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Bread
   itemObject: {fileID: 3280253766931701567, guid: 224d1d745f67bd24390b7d14c5a2933f, type: 3}
+  itemPrice: 2
+  growTime: 0
+  seedObject: {fileID: 0}

@@ -1,7 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class FarmBase : MonoBehaviour
@@ -12,7 +9,7 @@ public class FarmBase : MonoBehaviour
 
     private void Awake()
     {
-        plots = GetComponentsInChildren<Plot>().ToList();
+        plots = new List<Plot>(GetComponentsInChildren<Plot>());
     }
 
     private void Start()

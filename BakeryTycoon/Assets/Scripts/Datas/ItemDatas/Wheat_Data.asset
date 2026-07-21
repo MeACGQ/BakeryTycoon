@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Wheat
   itemObject: {fileID: 1386177784035545421, guid: fb22fa02bc087fa448cee6ee7b22c6ab, type: 3}
-  growTime: 5
+  itemPrice: 1
+  growTime: 2
   seedObject: {fileID: 919132149155446097, guid: cc83ce06eabb9864e851c5336376d236, type: 3}

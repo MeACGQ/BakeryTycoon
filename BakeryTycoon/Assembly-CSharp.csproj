@@ -50,26 +50,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\Player\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Objects\Foods\Wheat.cs" />
+    <Compile Include="Assets\Scripts\Services\MoneyManager.cs" />
     <Compile Include="Assets\Scripts\Player\HighlightItem.cs" />
     <Compile Include="Assets\Scripts\Player\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Objects\Farm\Wheat.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Scripts\Objects\Farm\FarmSlot.cs" />
-    <Compile Include="Assets\Scripts\Objects\Farm\Farm.cs" />
-    <Compile Include="Assets\Scripts\ScriptibleObjects\PlantData.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\ProductOutPut.cs" />
     <Compile Include="Assets\Scripts\Bases\InteractbleBase.cs" />
-    <Compile Include="Assets\Scripts\Objects\Farm\TestFarm.cs" />
     <Compile Include="Assets\Scripts\Player\Machine\GetOutPut.cs" />
     <Compile Include="Assets\Scripts\Objects\Foods\Bread.cs" />
+    <Compile Include="Assets\Scripts\Services\TextManager.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\Produce.cs" />
     <Compile Include="Assets\Scripts\ScriptibleObjects\ItemData.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IHoldable.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\Recipe.cs" />
-    <Compile Include="Assets\Scripts\Objects\Box.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Objects\Foods\Pastry.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\ProductEnter.cs" />
+    <Compile Include="Assets\Scripts\Objects\TestObjects\Box.cs" />
     <Compile Include="Assets\Scripts\Player\HiglightItemText.cs" />
     <Compile Include="Assets\Scripts\Player\Interaction\Interaction.cs" />
     <Compile Include="Assets\Scripts\Objects\Farm\Plot.cs" />
@@ -78,14 +76,14 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteracble.cs" />
     <Compile Include="Assets\Scripts\Objects\Machines\Machines\DoughMixer.cs" />
-    <Compile Include="Assets\Scripts\Objects\TestMachine.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Scripts\Objects\GreenBox.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\Player\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\Bases\ItemBase.cs" />
     <Compile Include="Assets\Scripts\Player\Player\PlayerInputs.cs" />
+    <Compile Include="Assets\Scripts\Objects\Shelf\Shelf.cs" />
+    <Compile Include="Assets\Scripts\Objects\TestObjects\TestMachine.cs" />
     <Compile Include="Assets\Scripts\Bases\FarmBase.cs" />
     <Compile Include="Assets\Scripts\Bases\MachineBase.cs" />
     <Compile Include="Assets\Scripts\Player\Player\PlayerInventory.cs" />
