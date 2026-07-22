@@ -7,6 +7,7 @@ public class MachineBase : InteractbleBase
     [Header("References")]
     [SerializeField] HighlightItem highlightInput;
     [SerializeField] HighlightItem highlightOutput;
+    ProcessBar processBar;
     GetOutPut Getoutput;
 
     [Header("Products")]
@@ -30,6 +31,7 @@ public class MachineBase : InteractbleBase
     private void Start()
     {
         Getoutput = GetComponent<GetOutPut>();
+        processBar = GetComponent<ProcessBar>();  
     }
 
     public void AddProduct(ItemData item, int currentStack)
@@ -63,6 +65,8 @@ public class MachineBase : InteractbleBase
 
         while (productStack > 0)
         {
+            processBar.StartFill(productTime);
+
             yield return new WaitForSeconds(productTime);
 
             outputProduct = GetOutput(inputProduct);

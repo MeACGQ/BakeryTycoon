@@ -276,13 +276,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.25563318, y: -0, z: -0, w: 0.96677387}
   m_LocalPosition: {x: 0, y: 9.252, z: -11.505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1893589410}
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 29.622, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,6 +1072,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649882851}
   m_CullTransparentMesh: 1
+--- !u!1 &685015793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3990373981089150144, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+  m_PrefabInstance: {fileID: 4808361215160836639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &685015797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685015793}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.20962, y: 0.8, z: 1.57332}
+  m_Center: {x: 0, y: 0.3969364, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2952,6 +2978,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1703733598}
     m_Modifications:
+    - target: {fileID: 742219259538753295, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      propertyPath: m_Size.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 742219259538753295, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      propertyPath: m_Center.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512205353131255260, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      propertyPath: m_Size.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512205353131255260, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      propertyPath: m_Center.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258598728540030697, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      propertyPath: recipes.Array.data[0].output
+      value: 
+      objectReference: {fileID: 11400000, guid: 47683ddc09594d243b6380598a4583e4, type: 2}
     - target: {fileID: 7354562484358005833, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
       propertyPath: m_Name
       value: DoughMixer
@@ -2999,7 +3045,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3990373981089150144, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 685015797}
   m_SourcePrefab: {fileID: 100100000, guid: 4a7e82070e1df824c86e28d897709d74, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
